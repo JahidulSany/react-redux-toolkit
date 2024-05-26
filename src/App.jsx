@@ -2,16 +2,6 @@ import { useState } from 'react';
 import Counter from './components/Counter';
 import Stats from './components/Stats';
 
-const initialCounters = [
-  {
-    id: 1,
-    value: 0,
-  },
-  {
-    id: 2,
-    value: 0,
-  },
-];
 export default function App() {
   const [counters, setCounters] = useState(initialCounters);
   const handleIncrement = (counterId) => {
