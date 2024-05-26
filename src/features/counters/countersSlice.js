@@ -10,6 +10,7 @@ const initialState = [
     value: 0,
   },
 ];
+
 const countersSlice = createSlice({
   name: 'counters',
   initialState,
